@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bugs: Hide and Seek</title>
+  <link rel="stylesheet" href="bugs.css">
+</head>
+<body>
+  <footer id="contact-link" class="footer-section">
+    <a id="contact"></a>
+    <div class="contact-me-form">
+      <div class="contact-info">
+        <h2 class="contact-title">Contact me</h2>
+        <p class="content-text">
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I’d
+          love to help with it
+        </p>
+      </div>
+
+      <form
+        action="https://formspree.io/f/xpznvyer"
+        method="POST"
+        class="contact-form"
+        id="contact-me-form"
+        name="contactMe"
+      >
+        <div class="footer-field">
+          
+          <input
+            required
+            id="name"
+            name="user-name"
+            class="input"
+            placeholder="Enter your user name"
+            minlength="1"
+            maxlength="30"
+            type="text"
+          />
+        </div>
+
+        <div class="footer-field">
+          
+          <input
+            required
+            class="input"
+            name="Email"
+            id="email"
+            placeholder="Enter email address i.e natajayanj14@gmail.com"
+            type="email"
+          />
+        </div>
+
+        <div class="footer-field">
+        
+          <textarea
+            name="message"
+            id="message"
+            minlength="1"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+            type="text"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <div class="footer-text">
+          <button class="footer-button" type="submit">Get In Touch</button>
+        </div>
+        <label class="error-information"></label>
+      </form>
+    </div>
+  </footer>
+</body>
+<script src="bugs.js"></script>
+</html>
